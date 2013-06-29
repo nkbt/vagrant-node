@@ -39,5 +39,5 @@ Bootstrap for Node.JS development.
         
         vagrant up
 
-7. Go to [http://localhost:10080](http://localhost:10080)
+7. Go to [http://localhost:13000](http://localhost:13000) and open browser console to see messages from server 
 8. Use `vagrant ssh` to access sandbox. Or just connect with any SSH-client to `localhost:2222` using name `vagrant` and pass `vagrant`
