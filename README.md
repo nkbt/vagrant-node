@@ -30,8 +30,8 @@ Bootstrap for Node.JS development.
 
 4. Checkout project:
 
-        git clone git://github.com/nkbt/xo.git xo
-        cd xo
+        git clone git://github.com/nkbt/vagrant-node.git vagrant-node
+        cd vagrant-node
         
 5. You may want to edit `package.json`, add or remove some packages, change application name, etc
 
