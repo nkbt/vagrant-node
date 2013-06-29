@@ -1,0 +1,22 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    <title>Test</title>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript">
+        var socket = io.connect('http://localhost');
+        socket.on('ping', function (data) {
+            console.log("Ping from node server, server message:", data);
+            setTimeout(function () {
+                socket.emit('get-ping', (new Date()).toJSON());
+            }, 20000);
+        });
+    </script>
+</head>
+<body>
+
+<h1>Open console...</h1>
+
+</body>
+</html>

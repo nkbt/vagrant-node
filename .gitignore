@@ -1,3 +1,7 @@
+############
+## Node
+############
+
 lib-cov
 *.seed
 *.log
@@ -12,3 +16,34 @@ logs
 results
 
 npm-debug.log
+
+node_modules
+
+############
+## OS
+############
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Mac crap
+.DS_Store
+
+
+#############
+## PHP Storm
+#############
+.idea
+atlassian-ide-plugin.xml
+
+
+#############
+## Project
+#############
+application/caches/*
+public/files/_tmp/*
+.zfproject.xml
+.vagrant

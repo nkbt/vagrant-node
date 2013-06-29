@@ -1,0 +1,29 @@
+{
+    "name": "vagrant-node",
+    "description": "Bootstrap for Node.JS development",
+    "version": "0.0.1",
+    "private": true,
+    "author": {
+        "name": "Nik Butenko",
+        "email": "nikita.butenko@gmail.com"
+    },
+    "contributors": [
+        {
+            "name": "Nik Butenko",
+            "email": "nikita.butenko@gmail.com"
+        }
+    ],
+    "scripts": {
+        "start": "supervisor --watch \".\" --extensions \"node|js|html|json\" app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/nkbt/vagrant-node.git"
+    },
+    "dependencies": {
+        "async": "*",
+        "underscore": "*",
+        "redis": "*",
+        "socket.io": "*"
+    }
+}
