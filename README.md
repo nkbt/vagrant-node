@@ -19,7 +19,7 @@ Bootstrap for Node.JS development.
 
 ### Installation
 
-1. Install [Vagrant](http://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/). NOTE: VirtualBox 4.2.14 (currentl latest) [does not work](https://github.com/mitchellh/vagrant/issues/1850) with Vagrant, but previous version 4.2.12 works fine.
+1. Install [Vagrant](http://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/). *WARNING*: latest VirtualBox 4.2.14 [does not work](https://github.com/mitchellh/vagrant/issues/1850) with Vagrant, but previous version 4.2.12 works fine.
 2. Add Ubuntu 12.04 i386 box:
 
         vagrant box add precise32 http://cloud-images.ubuntu.com/vagrant/precise/current/precise-server-cloudimg-i386-vagrant-disk1.box
